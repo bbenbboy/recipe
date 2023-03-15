@@ -28,8 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/bbenbboy/Mini-Calculator-Project.git)
-- Live Site URL: [Live Site URL](https://calculator-by-react-matt.netlify.app/)
+- Solution URL: [Github](https://github.com/bbenbboy/recipe.git)
 
 ## My process
 
