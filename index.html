@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <title>Find Your Recipe</title>
+  </head>
+  <body>
+    <section class="container">
+      <div class="wrapper">
+        <div class="meal-search">
+          <div class="title-container">
+            <h2 class="header">Find Your Happy Meals</h2>
+            <p>What your <span>favorite recipes </span> do you want to find?</p>
+          </div>
+          <div class="meal-search-box">
+            <input
+              type="text"
+              class="search-content"
+              placeholder="Find your main ingredient. Ex: Egg"
+              id="search-input"
+            />
+            <button type="submit" class="search-btn btn" id="search-btn">
+              <ion-icon name="search-outline" size="large"></ion-icon>
+            </button>
+          </div>
+        </div>
+        <div class="meal-results">
+          <h2 class="title">Your search results:</h2>
+          <div id="meal">
+            <!-- meal items -->
+            <!-- <div class="meal-container">
+              <div class="meal-name">
+                <h3>something never get old from the old day</h3>
+              </div>
+              <div class="meal-image">
+                <img src="/image/1529444830.jpg" alt="" />
+              </div>
+              <a href="" class="recipe-btn">Get Recipe</a>
+            </div> -->
+            <!-- end of meal items -->
+          </div>
+        </div>
+        <div class="meal-details">
+          <!-- recipe close btn -->
+          <button
+            type="button"
+            class="btn recipe-close-btn"
+            id="recipe-close-btn"
+          >
+            <ion-icon name="close-outline" class="btn"></ion-icon>
+          </button>
+          <!-- meal content -->
+          <div class="meal-details-content">
+            <!-- <h2 class="recipe-title">Recipe title</h2>
+            <p class="recipe-category">Category name</p>
+            <div class="recipe-instruct">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa
+                quas corrupti modi a quos, exercitationem nesciunt sit labore
+                nisi consequatur rerum doloremque dignissimos consequuntur enim
+                praesentium cum iusto repudiandae repellendus!
+              </p>
+              <div class="recipe-meal-img">
+                <img src="" alt="img" />
+              </div>
+              <div class="recipe-link">
+                <a
+                  href=""
+                  target="_blank
+                "
+                  >Video</a
+                >
+              </div>
+            </div> -->
+          </div>
+          <!-- end of meal content -->
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="/main.js"></script>
+</html>
